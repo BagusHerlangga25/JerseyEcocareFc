@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pre-Order Jersey Ecocare Group FC</title>
+    <link rel="stylesheet" href="./Css/styless.css">
+    <!-- <link rel="stylesheet" href="submit_form.php"> -->
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>Pre-Order Jersey Ecocare Group FC</h1>
+        </header>
+        <main>
+            <section class="intro">
+                <p>Pesan sekarang jersey eksklusif Ecocare Group FC dengan harga spesial pre-order!</p>
+            </section>
+            <section class="jerseys">
+                <!-- <h2>Pilihan Jersey</h2> -->
+                <div class="jersey">
+                    <img src="./Assets/WhatsApp Image 2024-07-31 at 13.38.26_ba5de838.jpg"
+                        alt="Jersey Kuning Putih Kiper">
+                    <p>Kiper - Kuning Putih</p>
+                </div>
+                <div class="jersey">
+                    <img src="./Assets/WhatsApp Image 2024-07-31 at 13.10.27_4e42f665.jpg"
+                        alt="Jersey Merah Maroon Pemain">
+                    <p>Pemain - Merah Maroon</p>
+                </div>
+            </section>
+            <section class="form-section">
+                <h2>Formulir Pemesanan</h2>
+                <form action="submit_form.php" method="POST">
+                    <label for="name">Nama:</label>
+                    <input type="text" id="name" name="name" required>
+
+                    <label for="size">Ukuran:</label>
+                    <select id="size" name="size" required>
+                        <option value="S">S</option>
+                        <option value="M">M</option>
+                        <option value="L">L</option>
+                        <option value="XL">XL</option>
+                        <option value="XXL">XXL</option>
+                        <option value="XXXL">XXXL</option>
+                    </select>
+
+                    <label for="number">Nomor Punggung:</label>
+                    <input type="text" id="number" name="number" required>
+
+                    <label for="jersey">Pilihan Jersey:</label>
+                    <select id="jersey" name="jersey" required>
+                        <option value="Kiper - Kuning Putih">Kiper - Kuning Putih</option>
+                        <option value="Pemain - Merah Maroon">Pemain - Merah Maroon</option>
+                    </select>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="phone">Nomor HP:</label>
+                    <input type="tel" id="phone" name="phone" required>
+
+                    <button type="submit">Pesan Sekarang</button>
+                </form>
+            </section>
+        </main>
+        <footer>
+            <p>Terima kasih atas dukungan Anda! Follow us for updates:
+                <a href="https://instagram.com/terasnenekfc">Instagram</a>,
+                <a href="https://facebook.com/terasnenekfc">Facebook</a>,
+                <a href="https://wa.me/6281234567890">WhatsApp</a>
+            </p>
+        </footer>
+    </div>
+</body>
+
+</html>
